@@ -1,0 +1,44 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Node app",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verikinaboina"
+  },
+  "keywords": [
+    "My",
+    "Node",
+    "app"
+  ],
+  "author": "Verikinaboina",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.19.6",
+    "axios": "^0.21.4",
+    "body-parser": "^1.20.1",
+    "bootstrap": "^3.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.6.4",
+    "joi-postalcode": "^2.0.0",
+    "joi-us-zipcode": "^3.0.8",
+    "joigoose": "^8.0.2",
+    "live-server": "^1.2.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.1",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
